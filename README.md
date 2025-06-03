@@ -22,15 +22,15 @@ on the opposite direction of $\vec{T}_1$.
 
 That means that the resultant force is:
 
-$$\vec{F}_R = \vec{T}_1 - \vec{T}_2$$
+$$\vec{F} = \vec{T}_1 - \vec{T}_2$$
 
 Then, using Newton's Second Law:
 
-$$\vec{F}_R = m \vec{a}$$
+$$\vec{F} = m \vec{a}$$
 
 But, for a massless string, $m = 0$. Therefore:
 
-$$\vec{F}_R = \vec{T}_1 - \vec{T}_2 = 0$$
+$$\vec{F} = \vec{T}_1 - \vec{T}_2 = 0$$
 
 $$\rightarrow |\vec{T}_1| = |\vec{T}_2|$$
 
@@ -44,41 +44,41 @@ On object 1, there is no movement on the vertical axis caused by its gravitation
 
 $$|\vec{G}_1| = |\vec{N}_1| (1)$$
 
-On the horizontal plane, for object 1, we have only friction force $\vec{F}_R$, and the tension $\vec{T}$ acting. On the diagram, we assumed that object 1 is moving to the left. Because of that, friction force points to the right. In this scenario, because the object is moving, we have $|\vec{T}| > |\vec{F}_{FR}|$ (otherwise, if this was not true, the object would be stationary). The resultant force on this body is then:
+On the horizontal plane, for object 1, we have only friction force $\vec{F}$, and the tension $\vec{T}$ acting. On the diagram, we assumed that object 1 is moving to the left. Because of that, friction force points to the right. In this scenario, because the object is moving, we have $|\vec{T}| > |\vec{F}|$ (otherwise, if this was not true, the object would be stationary). The resultant force on this body is then:
 
-$$\vec{F}_1 = \vec{T} - \vec{F}_{FR}$$
+$$\vec{F}_1 = \vec{T} - \vec{F}$$
 
-For the second object, we assume that $|\vec{G}_2| > |\vec{T}|$, for the movement to occur. Therefore:
+For the second object, we assume that $|G_2| > |\vec{T}|$, for the movement to occur. Therefore:
 
-$$\vec{F}_2 = \vec{G}_2 - \vec{T}$$
+$$\vec{F}_2 = G_2 - \vec{T}$$
 
 Applying Newton's Second Law to both objects:
 
-$$\vec{F}_1 = \vec{T} - \vec{F}_{FR} = m_1 \vec{a}_1$$
-$$\vec{F}_2 = \vec{G}_2 - \vec{T} = m_2 \vec{a}_2$$
+$$\vec{F}_1 = \vec{T} - \vec{F} = m_1 \vec{a}_1$$
+$$\vec{F}_2 = G_2 - \vec{T} = m_2 \vec{a}_2$$
 
 Here, it is useful to note that, because the string is inextensible, it is mandatory that $|\vec{a_1}| = |\vec{a_2}|$. The reason behind this statement comes from the fact that, because the string has always the same size and is never hanging loosely, the blocks should have the same displacement, when compared with their initial positions. Knowing that both movements happen in the same time interval, we can conclude that they have to have the same acceleration for it to be possible. Then, using $|\vec{a}_1| = |\vec{a}_2| = |\vec{a}|$, we obtain:
 
-$$\vec{F}_1 = \vec{T} - \vec{F}_{FR} = m_1 \vec{a}$$
-$$\vec{F}_2 = \vec{G}_2 - \vec{T} = m_2 \vec{a}$$
+$$\vec{F}_1 = \vec{T} - \vec{F} = m_1 \vec{a}$$
+$$\vec{F}_2 = G_2 - \vec{T} = m_2 \vec{a}$$
 
 Adding these equations:
 
-$$\vec{G}_2 - \vec{F}_{FR} = (m_1 + m_2) \vec{a}$$
+$$G_2 - \vec{F} = (m_1 + m_2) \vec{a}$$
 
 Which means that:
 
-$$\vec{a} = \frac{\vec{G}_2 - \vec{F}_{FR}}{(m_1 + m_2)}$$
+$$\vec{a} = \frac{G_2 - \vec{F}}{(m_1 + m_2)}$$
 
 Hence, using:
 
-$$\vec{G}_2 = m_2 \vec{g}$$
+$$G_2 = m_2 \vec{g}$$
 
-$$\vec{F}_{FR} = \vec{N}_1 \mu_k$$
+$$\vec{F} = \vec{N}_1 \mu_k$$
 
 And, as we already saw in Eq. (1), for object 1 $\vec{N}_1 = \vec{G}_1 = m_1 \vec{g}$:
 
-$$\vec{F}_{FR} = m_1 \vec{g} \mu_k$$
+$$\vec{F} = m_1 \vec{g} \mu_k$$
 
 We finally see that:
 
@@ -109,9 +109,9 @@ $$\vec{F_2} = m_2 \vec{a} (2)$$
 
 As we saw previously, an analysis of Fig. (1) allows us to write:
 
-$$\vec{T}_1 - \vec{F}_{FR} = m_1 \vec{a}$$
+$$\vec{T}_1 - \vec{F} = m_1 \vec{a}$$
 
-$$\vec{G}_2 - \vec{T}_2 = m_2 \vec{a}$$
+$$G_2 - \vec{T}_2 = m_2 \vec{a}$$
 
 Then, we need to make a deep analysis of the forces the pulley is under. Taking a look at:
 
@@ -133,21 +133,21 @@ $$\vec{T}_2 R - \vec{T}_1 R = I_{CM} \frac{\vec{a}}{R} (3)$$
 
 Using Eq. (2), we can rewrite the tensions on the string as:
 
-$$\vec{T}_1 = m_1 \vec{a} + \vec{F}_{FR}$$
-$$\vec{T}_2 = \vec{G}_2 - m_2 \vec{a}$$
+$$\vec{T}_1 = m_1 \vec{a} + \vec{F}$$
+$$\vec{T}_2 = G_2 - m_2 \vec{a}$$
 
 Then, substituting that in Eq. (3), we obtain:
 
-$$(\vec{G}_2 - m_2 \vec{a})R - (m_1 \vec{a} - \vec{F}_{FR})R = I_{CM} \frac{\vec{a}}{R}$$
+$$(G_2 - m_2 \vec{a})R - (m_1 \vec{a} - \vec{F})R = I_{CM} \frac{\vec{a}}{R}$$
 
-$$\vec{G}_2 R - \vec{F}_{FR} R = \vec{a} \left(\frac{I_{CM}}{R} + m_1 R + m_2 R \right)$$
+$$G_2 R - \vec{F} R = \vec{a} \left(\frac{I_{CM}}{R} + m_1 R + m_2 R \right)$$
 
-$$\vec{a} = \frac{\vec{G}_2 R - \vec{F}_{FR} R}{\left(\frac{I_{CM}}{R} + m_1 R + m_2 R \right)}$$
+$$\vec{a} = \frac{G_2 R - \vec{F} R}{\left(\frac{I_{CM}}{R} + m_1 R + m_2 R \right)}$$
 
 Hence, using that:
 
-$$\vec{G}_2 = m_2 \vec{g}$$
-$$\vec{F}_{FR} = m_1 \vec{g} \mu_k$$
+$$G_2 = m_2 \vec{g}$$
+$$\vec{F} = m_1 \vec{g} \mu_k$$
 
 we arrive at:
     
@@ -189,8 +189,8 @@ $$\vec{F}_2 = [m_2 + \lambda l(x)] \vec{a} + \lambda \frac{d l(x)}{dx} v^2 (5)$$
 
 Analysing the diagram for the system, presented in the first figure, we conclude that:
 
-$$\vec{T}_1 - \vec{F}_{FR} = \vec{F}_1$$
-$$\vec{G}_2 - \vec{T}_2 = \vec{F}_2 (6)$$
+$$\vec{T}_1 - \vec{F} = \vec{F}_1$$
+$$G_2 - \vec{T}_2 = \vec{F}_2 (6)$$
 
 where we have assumed that the system is moving, and object $M2$ is descending, pulling object $M1$ to the left.
 Then, we need to take a closer look at what happens where the string connects to object 1. The string applies a force on object 1, that we will call $\vec{F}_{S,1}$. 
@@ -214,9 +214,9 @@ $$\vec{T}(\text{x=pulley}) - \vec{F}_{1,S} = \lambda [L-l(x)] \vec{a}$$
 
 But, as we saw, $\vec{F}_{1,S} = -\vec{T}_1$. Then, using Eq. (6):
 
-$$\rightarrow \vec{T}(\text{x=pulley}) = \lambda [L-l(x)] \vec{a} - \vec{F}_1 - \vec{F}_{FR}$$
+$$\rightarrow \vec{T}(\text{x=pulley}) = \lambda [L-l(x)] \vec{a} - \vec{F}_1 - \vec{F}$$
 
-$$\rightarrow \vec{T}(\text{x=pulley}) = \lambda [L-l(x)] \vec{a} - [m_1 +(L-l(x))\lambda] \vec{a} + \lambda \frac{d l(x)}{dx} v^2 - \vec{F}_{FR}$$
+$$\rightarrow \vec{T}(\text{x=pulley}) = \lambda [L-l(x)] \vec{a} - [m_1 +(L-l(x))\lambda] \vec{a} + \lambda \frac{d l(x)}{dx} v^2 - \vec{F}$$
 
 Doing the same procedure for the string hanging between object 2 and the pulley, we can identify that $\vec{F}_{2,S} = -\vec{T}_2$, so that:
 
@@ -224,23 +224,23 @@ $$\vec{F}_{2,S} - \vec{T}(\text{x=pulley}) = l(x) \lambda \vec{a}$$
 
 $$\rightarrow -\vec{T}_2 - \vec{T}(\text{x=pulley}) = l(x) \lambda \vec{a}$$
 
-$$\rightarrow \vec{T}(\text{x=pulley}) = - \lambda l(x) \vec{a} -\vec{G}_2 + \vec{F}_2 $$
+$$\rightarrow \vec{T}(\text{x=pulley}) = - \lambda l(x) \vec{a} -G_2 + \vec{F}_2 $$
 
-$$\rightarrow \vec{T}(\text{x=pulley}) = -l(x) \lambda \vec{a} - \vec{G}_2 + [m_2 - \lambda l(x)] \vec{a} + \lambda \frac{d l(x)}{dx} v^2$$
+$$\rightarrow \vec{T}(\text{x=pulley}) = -l(x) \lambda \vec{a} - G_2 + [m_2 - \lambda l(x)] \vec{a} + \lambda \frac{d l(x)}{dx} v^2$$
 
 That way, when we equate both expressions for $\vec{T}(\text{x=pulley})$, as they were calculated on the same point:
 
-$$\lambda [L-l(x)] \vec{a} -[m_1 +(L-l(x))\lambda] \vec{a} + \lambda \frac{d l(x)}{dx} v^2 - \\\vec{F}_{FR} = -l(x) \lambda \vec{a} - \vec{G}_2 + [m_2 - \lambda l(x)] \vec{a} + \lambda \frac{d l(x)}{dx} v^2$$
+$$\lambda [L-l(x)] \vec{a} -[m_1 +(L-l(x))\lambda] \vec{a} + \lambda \frac{d l(x)}{dx} v^2 - \\\vec{F} = -l(x) \lambda \vec{a} - G_2 + [m_2 - \lambda l(x)] \vec{a} + \lambda \frac{d l(x)}{dx} v^2$$
 
 which we can rearrange as:
 
-$$[m_1 + m_2 + L \lambda] \vec{a} + \vec{F}_{FR} - \vec{G}_2 = 0$$
+$$[m_1 + m_2 + L \lambda] \vec{a} + \vec{F} - G_2 = 0$$
 
 which is a second-order linear ODE.
 
-At first glance, it may seem that the acceleration will be constant throughout the movement. However, we can see that $\vec{G}_2$ changes with time, as the length of the string that is hanging from the surface increases:
+At first glance, it may seem that the acceleration will be constant throughout the movement. However, we can see that $G_2$ changes with time, as the length of the string that is hanging from the surface increases:
 
-$$\vec{G}_2 = [m_2 + l(x) \lambda] \vec{g} (7)$$
+$$G_2 = [m_2 + l(x) \lambda] \vec{g} (7)$$
 
 Considering the string to be inextensible implies that, when object 1 has a displacement of $x$, $l(x)$ will increase with $x$. If at $t = 0$ we have $l(x = 0) = l_0$, then:
 
@@ -252,7 +252,7 @@ $$\left[m_1 + m_2 + L \lambda \right] \frac{d^2 x}{d t^2} - g \lambda x +g (\mu_
 
 where we have used that, for object 1, the normal force $\vec{N}$ is equal to the gravitational force $\vec{G}_1$, as we previously saw in Eq. (1).
 
-Therefore, as the gravitational force $\vec{G}_2$ changes with time, we can conclude that the acceleration (and consequently, the force felt by both objects and the string) is variable during the movement of the system. The resulting acceleration of the system depends on the displacement that have already occurred; hence, it is necessary to solve the 2º degree ODE to successfully describe the system.
+Therefore, as the gravitational force $G_2$ changes with time, we can conclude that the acceleration (and consequently, the force felt by both objects and the string) is variable during the movement of the system. The resulting acceleration of the system depends on the displacement that have already occurred; hence, it is necessary to solve the 2º degree ODE to successfully describe the system.
 
 ## Massive string on a massive pulley
 
@@ -269,14 +269,14 @@ $$\vec{\tau} = \vec{T}_2 R - \vec{T}_1 R$$
 
 Then, using our expressions for $\vec{F}_1$, $\vec{F}_2$, $\vec{T}_1$, $\vec{T}_2$ and $\vec{\tau}$, we obtain:
 
-$$[m_1 + (L - l(x))\lambda] \vec{a} - \lambda \frac{d l(x)}{dx} v^2 + [m_2 + l(x) \lambda] \vec{a} \\+ \lambda \frac{d l(x)}{dx} \vec{v}^2 + \vec{F}_{FR} - \vec{G}_2 = \frac{I_{CM}}{R^2} \vec{a} $
+$$[m_1 + (L - l(x))\lambda] \vec{a} - \lambda \frac{d l(x)}{dx} v^2 + [m_2 + l(x) \lambda] \vec{a} \\+ \lambda \frac{d l(x)}{dx} \vec{v}^2 + \vec{F} - G_2 = \frac{I_{CM}}{R^2} \vec{a} $
 
 which can be rearranged as:
 
-$$\left[m_1 + m_2 + L \lambda + \frac{I_{CM}}{R^2} \right] \vec{a} + \vec{F}_{FR} - \vec{G}_2 = 0$$
+$$\left[m_1 + m_2 + L \lambda + \frac{I_{CM}}{R^2} \right] \vec{a} + \vec{F} - G_2 = 0$$
 
 
-Once more, we need to note that $\vec{G}_2$ is not constant with time. As we saw in Eq. (7), it increases as object 1 moves, and there is more string hanging from the surface.
+Once more, we need to note that $G_2$ is not constant with time. As we saw in Eq. (7), it increases as object 1 moves, and there is more string hanging from the surface.
 
 Hence, using the Eq. (8) to substitute $l(x)$, we get that the final expression for this system is:
 
