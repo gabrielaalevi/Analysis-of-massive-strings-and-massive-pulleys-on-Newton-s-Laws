@@ -1,4 +1,4 @@
-## Ideal string on an ideal pulley}
+## Ideal string on an ideal pulley
 We begin analysing the easiest case possible. A massive object $M_1$, with mass $m_1$, stands on a flat surface with kinetic friction coefficient $\mu_k$, and is tied to another massive 
 object $M_2$, with mass $m_2$, that hangs outside of the surface. The objects are tied through a massless, frictionless and inextensible string, that passes through a massless and 
 frictionless pulley. The whole system can be seen in the next figure:
