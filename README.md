@@ -44,7 +44,7 @@ On object 1, there is no movement on the vertical axis caused by its gravitation
 
 $$|\vec{G}_1| = |\vec{N}_1| (1)$$
 
-On the horizontal plane, for object 1, we have only friction force $\vec{F}_{FR}$, and the tension $\vec{T}$ acting. On the diagram, we assumed that object 1 is moving to the left. Because of that, friction force points to the right. In this scenario, because the object is moving, we have $|\vec{T}| > |\vec{F}_{FR}|$ (otherwise, if this was not true, the object would be stationary). The resultant force on this body is then:
+On the horizontal plane, for object 1, we have only friction force $\vec{F}_R$, and the tension $\vec{T}$ acting. On the diagram, we assumed that object 1 is moving to the left. Because of that, friction force points to the right. In this scenario, because the object is moving, we have $|\vec{T}| > |\vec{F}_{FR}|$ (otherwise, if this was not true, the object would be stationary). The resultant force on this body is then:
 
 $$\vec{F}_1 = \vec{T} - \vec{F}_{FR}$$
 
